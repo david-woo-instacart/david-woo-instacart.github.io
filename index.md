@@ -11,8 +11,25 @@ Mental mode: motivating example + concept ( pedestrian level) >>> math formula >
 
 Main metrics typically ranking measures which are i) MAP ( mean average precision) ii) NDCG ( normalized discounted cumulative gain)
 
+
+
 ```markdown
-Syntax highlighted code block
+Toy Example:
+
+Input: movie - recently watched
+Output N movies - to watch next
+
+How do we score the recommendation?
+
+Requirements:
+- relevance matters: Chosen ( Yes or no)  we want to make sure the user chooses the recommendation
+- order matters: Higher the better. Imagine google search showing the best 5 at the bottom of the page vs the top of the page.
+- variety/ choice matters: Somestimes a recommendation engine may want to give a couple of options instead of just one option
+
+Resources:
+- [Best example on metrics definiton](https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/).
+
+Mean Average Precion
 
 # Header 1
 ## Header 2
