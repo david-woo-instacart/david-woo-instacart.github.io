@@ -2,7 +2,7 @@
 
 Make this website as minimal as possible.
 
-Mental mode: motivating example + concept ( pedestrian level) >>> math formula >>> code ( so we can implement) 
+Mental mode: motivating example + concept ( pedestrian level) >>> math formula >> implications what is a good score >>> code ( so we can implement) 
 
 
 ## Model Eval Metrics
@@ -40,6 +40,10 @@ Math:
 precision per item: cumulative items chosen / items position
 Average precision : sum ( precision per item) / sum ( items chosen)
 Mean average precision : sum(average precision across recommendations shown) / sum ( recommendations shown)
+
+What is a good score:
+0.1 would mean every 10th recommendation would be right. more wrong than right
+0.5 would mean every other recommendation would be chosen which is pretty good.
 
 Code: 
 
