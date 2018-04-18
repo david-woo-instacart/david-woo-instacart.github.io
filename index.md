@@ -26,8 +26,22 @@ Requirements:
 - order matters: Higher the better. Imagine google search showing the best 5 at the bottom of the page vs the top of the page.
 - variety/ choice matters: Somestimes a recommendation engine may want to give a couple of options instead of just one option
 
-Resources:
-- [Best example on metrics definiton](https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/).
+Formula:
+
+Toy example:
+
+Recommendation, Chosen, Precision
+A,1, 1/1
+B,0, 
+C,1, 1+1 / 3
+D,1, 1+1+1 / 4
+
+Math:
+precision per item: cumulative items chosen / items position
+Average precision : sum ( precision per item) / sum ( items chosen)
+Mean average precision : sum(average precision across recommendations shown) / sum ( recommendations shown)
+
+Code: 
 
 Mean Average Precion
 
@@ -45,6 +59,9 @@ Mean Average Precion
 
 [Link](url) and ![Image](src)
 ```
+
+Resources:
+- [Best example on metrics definiton](https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/).
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
