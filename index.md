@@ -1,12 +1,15 @@
-## Welcome to GitHub Pages
+## Guiding Principles
 
-You can use the [editor on GitHub](https://github.com/david-woo-instacart/easyml.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Make this website as minimal as possible.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Mental mode: motivating example + concept ( pedestrian level) >>> math formula >>> code ( so we can implement) 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Model Eval Metrics
+
+### Recommendation Systems
+
+Main metrics typically ranking measures which are i) MAP ( mean average precision) ii) NDCG ( normalized discounted cumulative gain)
 
 ```markdown
 Syntax highlighted code block
