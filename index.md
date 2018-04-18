@@ -66,6 +66,7 @@ Mean Average Precion
 
 Resources:
 - [Best example on metrics definiton](https://makarandtapaswi.wordpress.com/2012/07/02/intuition-behind-average-precision-and-map/).
+- [Motivation behind MAP](http://fastml.com/what-you-wanted-to-know-about-mean-average-precision/).
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
